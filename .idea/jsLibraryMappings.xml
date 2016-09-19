@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptLibraryMappings">
+    <file url="file://$PROJECT_DIR$" libraries="{PozibleDeveloperProject/node_modules}" />
+    <file url="file://$PROJECT_DIR$/.meteor/local/build/programs/server" libraries="{PozibleDeveloperProject/.meteor/local/build/programs/server/node_modules}" />
+    <file url="PROJECT" libraries="{meteor-packages-auto-import-browser, meteor-packages-auto-import-npm}" />
+    <includedPredefinedLibrary name="Meteor project library" />
+  </component>
+</project>
