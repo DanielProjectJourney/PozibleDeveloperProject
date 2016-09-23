@@ -1,8 +1,9 @@
 {
-  "name": "PozibleDeveloperProject",
+  "name": "pozible-developer-project",
   "private": true,
   "scripts": {
-    "start": "meteor run"
+    "start": "meteor run",
+    "build": "babel src --watch --out-dir lib"
   },
   "dependencies": {
     "bcrypt": "^0.8.7",
@@ -13,7 +14,21 @@
     "react-router": "^2.8.0"
   },
   "devDependencies": {
+    "babel-cli": "^6.14.0",
     "react": "^15.3.1",
     "react-dom": "^15.3.1"
-  }
+  },
+  "description": "> Stack : Meteor,MongoDB,ReactJS(Webpack,Babel)",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielProjectJourney/PozibleDeveloperProject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanielProjectJourney/PozibleDeveloperProject/issues"
+  },
+  "homepage": "https://github.com/DanielProjectJourney/PozibleDeveloperProject#readme"
 }
